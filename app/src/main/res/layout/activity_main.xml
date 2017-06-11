@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alcala.fahrenheittocelciusconverter.MainActivity">
+
+    <TextView
+        android:id="@+id/FahrenheitLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="47dp"
+        android:layout_toEndOf="@+id/fahrenheitET"
+        android:text="@string/fahrenheitLabel"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/fahrenheitET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/FahrenheitLabel"
+        android:layout_alignBottom="@+id/FahrenheitLabel"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ConvertToLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fahrenheitET"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="@string/convertsToLabel"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/celciusTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ConvertToLabel"
+        android:layout_below="@+id/ConvertToLabel"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/celciusTV"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/CelciusLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/celciusTV"
+        android:layout_alignBottom="@+id/celciusTV"
+        android:layout_toEndOf="@+id/celciusTV"
+        android:text="@string/celciusLabel"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ResetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/celciusTV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:elevation="0dp"
+        android:text="@string/resetButton"
+        android:textSize="24sp" />
+
+</RelativeLayout>

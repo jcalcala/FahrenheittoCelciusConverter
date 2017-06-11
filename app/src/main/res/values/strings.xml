@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fahrenheit to Celsius Converter</string>
+    <string name="fahrenheitLabel">°F</string>
+    <string name="convertsToLabel">Converts To</string>
+    <string name="celciusTV">0</string>
+    <string name="celciusLabel">°C</string>
+    <string name="resetButton">Reset</string>
+</resources>
