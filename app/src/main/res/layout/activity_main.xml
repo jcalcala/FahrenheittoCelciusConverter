@@ -24,8 +24,11 @@
         android:layout_alignBaseline="@+id/FahrenheitLabel"
         android:layout_alignBottom="@+id/FahrenheitLabel"
         android:layout_centerHorizontal="true"
+        android:width="50dp"
         android:ems="10"
+        android:hint="@string/fahrenheitHintValue"
         android:inputType="numberDecimal"
+        android:textAlignment="textEnd"
         android:textSize="20sp" />
 
     <TextView
@@ -68,7 +71,6 @@
         android:layout_below="@+id/celciusTV"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="19dp"
-        android:elevation="0dp"
         android:text="@string/resetButton"
         android:textSize="24sp" />
 

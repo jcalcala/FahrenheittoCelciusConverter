@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements OnEditorActionLis
     public void onClick(View view) {
         switch ((view.getId())) {
             case R.id.ResetButton:
-                fahrenheitET.setText("0");
+                fahrenheitET.setText("");
                 celciusTV.setText("0");
                 break;
         }
